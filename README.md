@@ -16,9 +16,11 @@ Data include the output from the initial bioinformatic workflow using cutadapt, 
 
 ## Analyses
 
-Analyses are, for the most part, sequential, and numbered in the appropriate order to generate the dependencies for the next set of analyses.
+Analyses are, for the most part, sequential, and numbered in the appropriate order to generate the dependencies for the next set of analyses. Analyses are in the `/downsampled_loci/` directory.
 
 Once the ASV tables have been decontaminated, the taxonomic hits from BLAST must be filtered before the data can be combined and concordance with reference pools assessed.
+
+00-data-import
 
 01-taxonomy-filter-BLAST-hits
 
@@ -30,14 +32,11 @@ Once the ASV tables have been decontaminated, the taxonomic hits from BLAST must
 
 05-Bray-Curtis-reference-DNA-pools
 
-06-mock-feeds-SODM-Bray-Curtis-filters 
-
 07-full-reference-DNA-pool-primer-evaluation
 
-08-integrate-taxonomic-levels-within-loci
+08-integr-taxonomic-levels-within-loci
 
 09-vouchered-false-positives
 
-10-mock-feeds-analyses
 
 
