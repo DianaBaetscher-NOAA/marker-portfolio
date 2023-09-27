@@ -1,11 +1,6 @@
 
-
-[![DOI](https://zenodo.org/badge/304080502.svg)](https://zenodo.org/badge/latestdoi/304080502)
-
-
-
-# metabarcoding-primer-portfolio
-Evaluation of 22 primer sets for metabarcoding marine and freshwater fishes, mostly
+# metabarcoding-marker-portfolio
+Evaluation of 22 primer sets for metabarcoding marine and freshwater fishes
 
 These are the analyses to accompany a manuscript testing the combined taxonomic recovery and resolution of a portfolio of primer pairs targeting short fragments (<300 bp) in multiple barcoding genes.
 
